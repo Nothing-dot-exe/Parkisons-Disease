@@ -1,6 +1,6 @@
 # Parkinson's Disease Detection System 🧠🎙️
 
-*Developed by [Piyush Kadam (@piyushkadam96k)](https://github.com/piyushkadam96k)*
+
 
 Welcome to the **Parkinson's Disease Detection Machine Learning Project**. This tool leverages voice biomarkers—such as fundamental vocal frequencies, jitter, shimmer, and harmonic noise—to accurately predict the presence of Parkinson's Disease using state-of-the-art machine learning algorithms.
 
@@ -42,3 +42,24 @@ Rigorous testing guarantees the data is un-leaked before modeling. As shown in t
 *   **Random Forests:** ~89-92% Accuracy.
 
 This establishes a very strong non-invasive metric for assessing early progression. Enjoy the project!
+
+---
+
+## 📉 Data Visualizations
+
+Here are exploratory data analysis and model performance visualizations for the Parkinson's Disease dataset:
+
+### Target Variable Distribution
+Shows the balance of the target class (Healthy vs. Parkinson's detected).
+
+![Target Distribution](graphs/target_distribution.png)
+
+### Correlation Heatmap
+Displays the correlation between the most significant vocal biomarker features.
+
+![Correlation Heatmap](graphs/correlation_heatmap.png)
+
+### Model Performance
+Compares the F1-Score of various algorithms (Random Forest, SVM, XGBoost, etc.) tested on this data.
+
+![Model Performance Comparison](graphs/model_performance_comparison.png)
