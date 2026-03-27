@@ -1,6 +1,5 @@
 # Parkinson's Disease Detection System 🧠🎙️
 
-*Developed by [Piyush Kadam (@piyushkadam96k)](https://github.com/piyushkadam96k)*
 
 Welcome to the **Parkinson's Disease Detection Machine Learning Project**. This tool leverages voice biomarkers—such as fundamental vocal frequencies, jitter, shimmer, and harmonic noise—to accurately predict the presence of Parkinson's Disease using state-of-the-art machine learning algorithms.
 
